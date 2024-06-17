@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This module contains setup instructions for pytube."""
+"""This module contains setup instructions for pytube-snatch-fix."""
 import codecs
 import os
 
@@ -14,7 +14,7 @@ with open(os.path.join(here, "pytube", "version.py")) as fp:
     exec(fp.read())
 
 setup(
-    name="pytube",
+    name="pytube-snatch-fix",
     version=__version__,  # noqa: F821
     author="Ronnie Ghose, Taylor Fox Dahlin, Nick Ficano",
     author_email="hey@pytube.io",
@@ -51,7 +51,6 @@ setup(
     zip_safe=True,
     python_requires=">=3.7",
     project_urls={
-        "Bug Reports": "https://github.com/pytube/pytube/issues",
         "Read the Docs": "https://pytube.io",
     },
     keywords=["youtube", "download", "video", "stream",],
